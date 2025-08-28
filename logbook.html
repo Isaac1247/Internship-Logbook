@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My LogBook</title>
+    <link rel="stylesheet" href="bootstrap-custom.css">
+    <style>
+      .task-section{
+        padding: 10px;
+        height: 17%;
+        color: white;
+        font-size: 15px;
+        background-color: #001f29;
+        margin: 5px;
+        box-sizing: border-box;
+      }
+
+      .date-section{
+        display: flex;
+        height: 20%;
+        padding: 10px;
+        color: white;
+        font-size: 15px;
+        background-color: #001f29;
+        margin: 5px;
+        box-sizing: border-box;
+      }
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+     <div class="pd-10 w-100p h-60 bg-plt4" id="container1" style="position: fixed; z-index: 3;">
+        <div class="d-flex fd-row clr-white2 fs-50" style="font-family: morris roman, sans serif;">MY LOGBOOK <img src="pencil-9457.png" alt="book" width="60" height="50"></div>
+    </div>
+
+     <!-- SideBar Section
+      <div class="w-150 bg-plt3" style="position: fixed; top: 80px; z-index: 2; height: calc(100% - 60px);">
+        <div id="date-section1" class="date-section h-30 d-flex-center pd-10 clr-white2 fs-medium bg-plt5 br-px mg-5">25 March 2025</div>
+        <div id="date-section2" class="date-section h-30 d-flex-center pd-10 clr-white2 fs-medium bg-plt5 mg-5">26 March 2025</div>
+        <div id="date-section3" class="date-section h-50 d-flex-center pd-10 clr-white2 fs-medium bg-plt5 mg-5">27 March 2025</div>
+        <div id="date-section4" class="date-section h-40 d-flex-center pd-10 clr-white2 fs-medium bg-plt5 mg-5">28 March 2025</div>
+        <div id="date-section5" class="date-section h-40 d-flex-center pd-10 clr-white2 fs-medium bg-plt5 mg-5">29 March 2025</div>
+        <div id="date-section6" class="date-section h-40 d-flex-center pd-10 clr-white2 fs-medium bg-plt5 mg-5">30 March 2025</div>
+      </div>  -->
+
+      <!-- Body Section-->
+      <div class="h-800 of-auto bg-plt1" style="position: fixed;top: 80px; z-index: 2; width:100%; height: calc(100% - 60);">
+        <div id="task-section1" class="task-section" style="display: flex;"> 
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">24 MARCH 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Company briefing with Khaleef Net <br><br> 
+            2. Creating LogBook using HTML
+          </div>
+        </div>
+        <div id="task-section2" class="task-section" style="display: flex;"> 
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">25 MARCH 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Learning Bootstrap CSS <br><br> 
+            2. Applying boostrap in previous LogBook <br><br>
+            3. Creating own profile with hovering function
+          </div>
+        </div> 
+        <div id="task-section3" class="task-section" style="display: flex;">
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">26 MARCH 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Continue making LogBook <br><br> 
+            2. Introduction to Backend Developer
+          </div>
+        </div>
+        <div id="task-section4" class="task-section" style="display: flex;">
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">27 MARCH 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Learning frontend and backend <br><br>
+            2. Adding edit and delete note function
+          </div>
+        </div>
+        <div id="task-section5" class="task-section" style="display: flex;">
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">28 MARCH 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Continue learning frontend and backend
+          </div>
+        </div>
+        <div id="task-section6" class="task-section" style="display: flex;">
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">29 MARCH 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Public Holiday
+          </div>
+        </div>
+        <div id="task-section7" class="task-section" style="display: flex;">
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">30 MARCH 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Public holiday
+          </div>
+        </div>
+        <div id="task-section8" class="task-section" style="display: flex;">
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">31 MARCH 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Hari Raya Aidilfitri Holiday
+          </div>
+        </div>
+        <div id="task-section9" class="task-section" style="display: flex;">
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">1 April 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Hari Raya Aidilfitri Holiday
+          </div>
+        </div>
+        <div id="task-section10" class="task-section" style="display: flex;">
+          <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">2 April 2025</div>
+          <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+            1. Hari Raya Aidilfitri Holiday
+          </div>
+        </div>
+        <div id="task-section11" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">3 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Do a simple chatting interface
+            </div>
+          </div>     
+        <div id="task-section12" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">4 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue do chatting interface
+            </div>
+          </div>     
+        <div id="task-section13" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">7 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research and proposed structure table for chatting feature
+            </div>
+          </div>     
+        <div id="task-section14" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">8 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to prepare ERD diagram for the chatting application
+            </div>
+          </div>     
+        <div id="task-section15" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">9 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Brief introduction to the e-invoice management system
+            </div>
+          </div>     
+        <div id="task-section16" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">10 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Create route, model and controller for the chatting application
+            </div>
+          </div>     
+        <div id="task-section17" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">11 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Do migration for the previous created model
+            </div>
+        </div>     
+        <div id="task-section18" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">14 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Learn to connect frontend and backend
+            </div>
+        </div>     
+        <div id="task-section19" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">15 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to fix the ERD and do API testing in Postman
+            </div>
+        </div>
+        <div id="task-section20" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">16 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to fix the ERD and do API testing in Postman
+            </div>
+        </div>
+        <div id="task-section21" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">17 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. CRUD test
+            </div>
+        </div> 
+        <div id="task-section22" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">18 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Public Holiday
+            </div>
+        </div>
+        <div id="task-section23" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">21 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Create a login page interface
+            </div>
+        </div>
+        <div id="task-section24" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">22 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Add additional features in the login page
+            </div>
+        </div>
+        <div id="task-section25" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">23 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Learn about the responsive interface
+            </div>
+        </div>
+        <div id="task-section26" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">24 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on Speech to Text API
+            </div>
+        </div>
+        <div id="task-section27" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">25 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to research on Speech to Text API
+            </div>
+        </div>
+        <div id="task-section28" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">28 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Training the Deepseek AI model to give appropriate response for the summarization from the meeting transcriptions
+            </div>
+        </div>
+        <div id="task-section29" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">29 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on Deepseek AI model
+            </div>
+        </div>
+        <div id="task-section30" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">30 April 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Develop a strategy for text refinement to enhance the quality of meeting transcriptions
+            </div>
+        </div>
+        <div id="task-section31" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">1 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Public Holiday
+            </div>
+        </div>
+        <div id="task-section32" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">2 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continuing the previous day's task on text refinement strategy
+            </div>
+        </div>
+        <div id="task-section33" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">5 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Construct database and and entity relationship diagram (ERD) for the meeting AI transcription project
+            </div>
+        </div>
+        <div id="task-section34" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">6 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Make adjustment to the ERD based on feedback received
+            </div>
+        </div>
+        <div id="task-section35" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">7 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Make API documentation for the meeting transcription project
+            </div>
+        </div>
+        <div id="task-section36" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">8 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continuing the previous day's task on API documentation
+            </div>
+        </div>
+        <div id="task-section37" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">9 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Create route and controller for the meeting transcription project
+            </div>
+        </div>
+        <div id="task-section38" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">12 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Public Holiday
+            </div>
+        </div>
+        <div id="task-section39" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">13 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Testing the Meetai API using Postman
+            </div>
+        </div>
+        <div id="task-section40" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">14 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to debug the route and controller for the Meetai API
+            </div>
+        </div>
+        <div id="task-section41" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">15 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Learn and design the Meetai frontend interface
+            </div>
+        </div>
+        <div id="task-section42" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">16 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Quiz for frontend: DOSM API
+            </div>
+        </div>
+        <div id="task-section43" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">19 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Fetching the population disrict (DOSM API) database and visualise it in proper diagram
+            </div>
+        </div>
+        <div id="task-section44" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">20 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Configure SSL Certificate in local device to access the Meetai Project from local browser
+            </div>
+        </div>
+        <div id="task-section45" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">21 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Debug DOSM API table and make migration for each database as well as updating the ERD diagram
+            </div>
+        </div>
+        <div id="task-section46" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">22 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue making API documentation for the Meetai project
+            </div>
+        </div>
+        <div id="task-section47" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">23 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on Microsoft teams integration with Meetai project
+            </div>
+        </div>
+        <div id="task-section48" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">26 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research and testing on Google Meet API integration with Meetai project
+            </div>
+        </div>
+        <div id="task-section49" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">27 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Create bookmarks, bookmark_groups, quotes table and update the ERD diagram
+            </div>
+        </div>'
+        <div id="task-section50" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">28 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on Microsoft Teams API integration with Meetai project
+            </div>
+        </div>
+        <div id="task-section51" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">29 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Frontend quiz
+            </div>
+        </div>
+        <div id="task-section52" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">30 Mei 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Public Holiday
+            </div>
+        </div>
+        <div id="task-section53" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">2 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Public Holiday
+            </div>
+        </div>
+        <div id="task-section54" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">3 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on Microsoft Teams API integration with Meetai project
+            </div>
+        </div>
+        <div id="task-section55" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">4 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on Webex API integration with Meetai project
+            </div>
+        </div>
+        <div id="task-section56" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">5 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on Django framework for backend development
+            </div>
+        </div>
+        <div id="task-section57" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">6 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on Zoom API integration with Meetai project
+            </div>
+        </div>
+        <div id="task-section58" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">9 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on Django framework for backend development
+            </div>
+        </div>
+        <div id="task-section59" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">10 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on Django framework for backend development
+            </div>
+        </div>
+        <div id="task-section60" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">11 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Create and design meeting summary in pdf format
+            </div>
+        </div>
+        <div id="task-section61" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">12 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on Firebase Cloud Messaging (FCM)
+            </div>
+        </div>
+        <div id="task-section62" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">13 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on Firebase Cloud Messaging (FCM) Dekstop Version
+            </div>
+        </div>
+        <div id="task-section63" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">16 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on Firebase Cloud Messaging (FCM) Android Version
+            </div>
+        </div>
+        <div id="task-section64" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">17 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on Firebase Cloud Messaging (FCM) IOS Version
+            </div>
+        </div>
+        <div id="task-section65" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">18 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on Firebase Cloud Messaging (FCM) IOS Version
+            </div>
+        </div>
+        <div id="task-section66" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">19 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on Firebase Cloud Messaging (FCM) Android Version
+            </div>
+        </div>
+        <div id="task-section67" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">20 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on FCM Android Version and AI bot integration
+            </div>
+        </div>
+        <div id="task-section68" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">23 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on attendee AI bot
+            </div>
+        </div>
+        <div id="task-section69" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">24 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on attendee AI bot
+            </div>
+        </div>
+        <div id="task-section70" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">25 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Create and design local AI loading response
+            </div>
+        </div>
+        <div id="task-section71" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">26 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to create and design local AI loading response
+            </div>
+        </div>
+        <div id="task-section72" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">27 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Public Holiday
+            </div>
+        </div>
+        <div id="task-section73" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">30 June 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Create draggable button on dekstop and mobile version
+            </div>
+        </div>
+        <div id="task-section74" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">1 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on FCM (sending live notification)
+            </div>
+        </div>
+        <div id="task-section75" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">2 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on attendee AI bot
+            </div>
+        </div>
+        <div id="task-section76" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">3 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Testing attendee bot API on laravel
+            </div>
+        </div>
+        <div id="task-section76" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">4 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research and design an interface for local meeting using WebRTC
+            </div>
+        </div>
+        <!-- <div id="task-section77" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">5 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on WebRTC
+            </div>
+        </div>
+        <div id="task-section78" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">6 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue research on WebRTC  
+            </div>
+        </div> -->
+        <div id="task-section79" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">7 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Creating a peer to peer local meeting using WebRTC
+            </div>
+        </div>
+        <div id="task-section80" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">8 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to add feature for multiple video using WebRTC
+            </div>
+        </div>
+        <div id="task-section81" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">9 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Debug error when hosting multiple video meeting using WebRTC
+            </div>
+        </div>
+        <div id="task-section82" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">10 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Debug Meetai Interface
+            </div>
+        </div>
+        <div id="task-section83" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">11 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Adding share screen button in local meeting
+            </div>
+        </div>
+        <div id="task-section84" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">14 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Testing live translatioon API
+            </div>
+        </div>
+        <div id="task-section85" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">15 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Debug multiple video meeting on others device
+            </div>
+        </div>
+        <div id="task-section86" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">16 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to debug Meetai video call feature
+            </div>
+        </div>
+        <div id="task-section87" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">17 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to debug Meetai video call feature
+            </div>
+        </div>
+        <div id="task-section88" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">18 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to debug Meetai video call feature
+            </div>
+        </div>
+        <div id="task-section89" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">21 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Debug peer to peer local meeting in Meetai
+            </div>
+        </div>
+        <div id="task-section90" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">22 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Add join meeting button for Meetai
+            </div>
+        </div>
+        <div id="task-section91" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">23 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Assist in debugging UTHM HIK
+            </div>
+        </div>
+        <div id="task-section92" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">24 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to assist on debugging UTHM HIK
+            </div>
+        </div>
+        <div id="task-section93" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">25 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research and developing Android application using Android Studio
+            </div>
+        </div>
+        <div id="task-section94" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">28 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to research and develping Android application using Android Studio
+            </div>
+        </div>
+        <div id="task-section95" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">29 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Adding slidable feature for Android application
+            </div>
+        </div>
+        <div id="task-section96" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">30 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to debug Meetai
+            </div>
+        </div>
+        <div id="task-section97" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">31 July 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to debug Meetai
+            </div>
+        </div>
+        <div id="task-section98" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">1 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Assist in debugging UTHM HIK
+            </div>
+        </div>
+        <div id="task-section99" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">4 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to debug Meetai video call feature
+            </div>
+        </div>
+        <div id="task-section100" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">5 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue to debug Meetai video call feature
+            </div>
+        </div>
+        <div id="task-section101" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">6 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on Figma about UI/UX design compatibility and pricing
+            </div>
+        </div>
+        <div id="task-section102" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">7 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Assist in debugging UTHM HIK
+            </div>
+        </div>
+        <div id="task-section103" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">8 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Research on developing chatting application pn Android
+            </div>
+        </div>
+        <div id="task-section104" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">11 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Develop splash screen for android application and assist in HRDIS workspace
+            </div>
+        </div>
+        <div id="task-section105" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">12 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Develop login interface using mobile number OTP
+            </div>
+        </div>
+        <div id="task-section106" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">13 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Do daily report
+            </div>
+        </div>
+        <div id="task-section107" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">14 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue researching about OTP login feature
+            </div>
+        </div>
+        <div id="task-section108" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">15 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Configure OTP setting
+            </div>
+        </div>
+        <div id="task-section109" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">18 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Redesign the login interface
+            </div>
+        </div>
+        <div id="task-section110" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">19 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Adding the sign up interface
+            </div>
+        </div>
+        <div id="task-section111" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">20 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Confiure the navigation between login and sign up interface
+            </div>
+        </div>
+        <div id="task-section112" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">21 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Configure the firebase access token on local device
+            </div>
+        </div>
+        <div id="task-section113" class="task-section" style="display: flex;">
+            <div class="d-flex-center w-130 bg-plt1" style="height: 99%;">22 August 2025</div>
+            <div class="d-flex ai-center bg-plt3" style="height: 99%; width: calc(100% - 130px); padding: 10px; box-sizing: border-box;">
+              1. Continue debugging access token and store it in firebase database
+            </div>
+        </div>
+
+          
+        <!-- Close Parent -->
+        </div> 
+</body>
+</html>
